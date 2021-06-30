@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1617242383191,
-  "repoUrl": "https://github.com/lukechu10/maple",
+  "lastUpdate": 1625019040522,
+  "repoUrl": "https://github.com/parker-codes/maple",
   "entries": {
     "Benchmark": [
       {
@@ -575,6 +575,66 @@ window.BENCHMARK_DATA = {
             "name": "reactivity_effects",
             "value": 595712,
             "range": "± 22609",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke Chu",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "27d90ecb08a020ea9da7e1b3233d6331ac2050ef",
+          "message": "Documentation for Router + SSR (#133)\n\n* Add navigate function\r\n\r\n* Add rustdocs to sycamore-router\r\n\r\n* Add rustdocs for generic_node::render\r\n\r\n* Add rustdocs to rx::iter\r\n\r\n* Docs for router\r\n\r\n* Add SSR docs\r\n\r\n* Add some more router docs\r\n\r\n* Add code snippet to SSR docs",
+          "timestamp": "2021-06-29T18:16:28-07:00",
+          "tree_id": "b7a2173c348e1828275ca4c1ae3a14568b4318f0",
+          "url": "https://github.com/parker-codes/maple/commit/27d90ecb08a020ea9da7e1b3233d6331ac2050ef"
+        },
+        "date": 1625019040011,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 46997,
+            "range": "± 57",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 562825,
+            "range": "± 24037",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 15494,
+            "range": "± 34",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 32742,
+            "range": "± 36",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 2405,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 111577,
+            "range": "± 125",
             "unit": "ns/iter"
           }
         ]
